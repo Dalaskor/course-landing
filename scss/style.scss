@@ -1,0 +1,237 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.body {
+    background: #252B42;
+}
+.header{
+    &__nav {
+        background: #184C99;
+    }
+    &__logo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        &:hover {
+            color: #def9fe;
+        }
+    }
+    &__burger {
+    }
+    &__burger-icon {
+    }
+}
+.nav {
+    &__list {
+
+    }
+    &__item {
+
+    }
+    &__link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        &:hover {
+            color: #def9fe;
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__button {
+    }
+}
+.button {
+    width: 137px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    &_login {
+        text-decoration: none;
+        &:hover {
+            color: #def9fe;
+        }
+    }
+    &_join {
+        background: #23A6F0;
+        border-radius: 5px;
+    }
+    &_learn {
+
+    }
+}
+.subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+}
+.about {
+    background: #184C99;
+    border-radius: 0 0 10% 10%;
+
+    &__content {
+        padding-bottom: 80px;
+    }
+
+    &__body {
+        padding-top: 80px;
+    }
+
+    &__welcome {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #23A6F0;
+    }
+
+    &__title {
+        width: 542px;
+        margin-top: 35px;
+    }
+
+    &__description {
+        width: 369px;
+        margin-top: 35px;
+    }
+
+    &__buttons {
+        margin-top: 35px;
+    }
+
+    &__image {
+        width: 373.65px;
+        height: 373.65px;
+        padding-top: 26px;
+    }
+
+    &__img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.container {
+}
+.row {
+}
+.col {
+}
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    // font-size: 40px;
+    // line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    &_big {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.features {
+    &__content {
+        margin-top: 20px;
+        padding-bottom: 64px;
+    }
+}
+
+.card {
+    &__icon {
+        width: 70px;
+        height: 76px;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #E74040;
+        border-radius: 10px;
+    }
+    &__line {
+        display: block;
+        width: 50px;
+        height: 2px;
+        background: #E74040;
+        margin-top: 20px;
+    }
+    &-title {
+        margin-top: 20px;
+    }
+    &-text {
+        margin-top: 20px;
+    }
+}
+
+.packages {
+    &__content {
+        padding: 160px 0;
+    }
+}
+
+.watch {
+    &__content {
+        padding: 160px 0;
+    }
+}
+
+.card {
+    &__image {
+        width: 128px;
+        height: 128px;
+    }
+    &__img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 200px;
+    }
+}
+
+.products{
+    &__mail-row {
+        width: 688px;
+        margin: 0 auto;
+    }
+}
